@@ -13,7 +13,12 @@
 public class Main {
 
     public static void main(String[] args) {
-
+        JTableTester();
     }//end main()
+
+    public static void JTableTester() {
+        JTableTest test = new JTableTest();
+        test.main();
+    }//end JTable()
 
 }//end class Main
