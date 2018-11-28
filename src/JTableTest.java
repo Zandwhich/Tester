@@ -59,8 +59,11 @@ public class JTableTest {
 
         JScrollPane scrollPane = new JScrollPane(table);
 
+        System.out.println(table.toString());
+        System.out.println(scrollPane.getViewport().getView().toString());
+
         JButton button = new JButton();
-        button.setText("Set random num to random cell");
+        button.setText("This button doesn't do anything (yet)!");
 
         JPanel panel = new JPanel();
         panel.setLayout(new BoxLayout(panel, BoxLayout.Y_AXIS));
